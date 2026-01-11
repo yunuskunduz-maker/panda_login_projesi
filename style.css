@@ -1,0 +1,56 @@
+* { padding: 0; margin: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+body { 
+    background-color: #c9184a; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.container { position: relative; width: 400px; height: 450px; }
+
+form {
+    width: 350px; background-color: #ffffff; position: absolute;
+    top: 180px; left: 50%; transform: translateX(-50%);
+    padding: 30px; border-radius: 15px; display: flex; flex-direction: column;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); z-index: 1;
+}
+
+h2 { text-align: center; margin-bottom: 20px; color: #2e0d30; font-size: 1.5em; }
+label { font-weight: 600; margin-top: 10px; color: #2e0d30; font-size: 0.9em; }
+input { padding: 10px; margin-top: 5px; border: none; border-bottom: 2px solid #3f3554; outline: none; font-size: 0.9em; }
+input:focus { border-color: #c9184a; }
+button { margin-top: 25px; padding: 12px; border-radius: 25px; border: none; background: #c9184a; color: #fff; font-weight: bold; cursor: pointer; transition: 0.3s; }
+button:hover { background: #a5133d; }
+
+/* PANDA TASARIMI */
+.panda-face {
+    width: 140px; height: 120px; background: #fff; border: 3px solid #2e0d30;
+    border-radius: 50% 50% 45% 45%; position: absolute; 
+    top: 75px; left: 50%; transform: translateX(-50%); z-index: 0;
+}
+
+.ear-l, .ear-r { width: 40px; height: 40px; background: #3f3554; border: 3px solid #2e0d30; border-radius: 50%; position: absolute; top: 70px; }
+.ear-l { left: 120px; } .ear-r { right: 120px; }
+
+.eye-l, .eye-r { width: 40px; height: 45px; background: #3f3554; border-radius: 50%; position: absolute; top: 30px; transition: 0.3s; }
+.eye-l { left: 22px; transform: rotate(-15deg); } .eye-r { right: 22px; transform: rotate(15deg); }
+
+.eyeball-l, .eyeball-r { width: 10px; height: 10px; background: #fff; border-radius: 50%; position: absolute; top: 10px; left: 12px; transition: 0.3s; }
+
+.nose { width: 18px; height: 12px; background: #3f3554; position: absolute; top: 80px; left: 50%; transform: translateX(-50%); border-radius: 50%; }
+
+.mouth { width: 20px; height: 10px; position: absolute; top: 92px; left: 50%; transform: translateX(-50%); border-radius: 50%; box-shadow: 0 2px 0 #3f3554; }
+
+/* ELLER (HAREKET EDECEK OLANLAR) */
+.hand-l, .hand-r { 
+    width: 45px; height: 50px; background: #3f3554; border: 3px solid #2e0d30; 
+    border-radius: 20px; position: absolute; 
+    top: 165px; z-index: 2; transition: 0.5s all ease;
+}
+.hand-l { left: 90px; } .hand-r { right: 90px; }
+
+.blush-l, .blush-r { width: 15px; height: 10px; background: #ff8bb1; border-radius: 50%; position: absolute; top: 70px; }
+.blush-l { left: 15px; } .blush-r { right: 15px; }
