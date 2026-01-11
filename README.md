@@ -1,5 +1,7 @@
 Göz Kırpan Panda Giriş Arayüzü
-Bu çalışma, kullanıcı etkileşimlerine tepki veren dinamik bir giriş (login) formudur. Projenin temel amacı, CSS konumlandırma yeteneklerini ve temel JavaScript olay yönetimini (event handling) bir araya getirerek görsel odaklı bir kullanıcı deneyimi sunmaktır.
+Bu proje, Anadolu Üniversitesi Bilgisayar Programcılığı programı kapsamında okutulan **"Kullanıcı Deneyimi (UX) Tasarımı"** dersinde edinilen teorik bilgilerin web teknolojileri (Vanilla JS & CSS3) ile uygulanması amacıyla bir "Öğrenme ve Geliştirme" çalışması olarak hazırlanmıştır.
+
+Projenin temel amacı, CSS konumlandırma yeteneklerini ve temel JavaScript olay yönetimini (event handling) bir araya getirerek görsel odaklı bir kullanıcı deneyimi sunmaktır.
 
 Proje Detayları
 Dinamik Etkileşim: Şifre giriş alanına odaklanıldığında, panda figürü elleriyle gözlerini kapatarak "ce-ee" efekti oluşturur.
