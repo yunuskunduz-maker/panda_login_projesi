@@ -1,28 +1,58 @@
-Göz Kırpan Panda Giriş Arayüzü
+# << ## **Winking Panda Login Interface** ## >>
 
-Bu proje, Anadolu Üniversitesi Bilgisayar Programcılığı programı kapsamında okutulan **"Kullanıcı Deneyimi (UX) Tasarımı"** dersinde edinilen teorik bilgilerin web teknolojileri (Vanilla JS & CSS3) ile uygulanması amacıyla bir "Öğrenme ve Geliştirme" çalışması olarak hazırlanmıştır.
+***
 
-Projenin temel amacı, CSS konumlandırma yeteneklerini ve temel JavaScript olay yönetimini (event handling) bir araya getirerek görsel odaklı bir kullanıcı deneyimi sunmaktır.
+### << ## **PROJECT SUMMARY** ## >>
+***
 
-Proje Detayları
-Dinamik Etkileşim: Şifre giriş alanına odaklanıldığında, panda figürü elleriyle gözlerini kapatarak "ce-ee" efekti oluşturur.
+** **This project was prepared as a "Learning and Development" study to apply theoretical knowledge from the "User Experience (UX) Design" course at Anadolu University using web technologies (Vanilla JS & CSS3).**
+** **The primary goal of the project is to provide a visually oriented user experience by combining CSS positioning capabilities with basic JavaScript event handling.**
 
-Göz Takibi: Kullanıcı adı alanına tıklandığında, göz bebekleri form alanına doğru hareket ederek görsel bir geribildirim sağlar.
+---
 
-Vektörsüz Çizim: Panda karakteri herhangi bir görsel (PNG, SVG vb.) kullanılmadan, tamamen saf CSS kodları ve border-radius özellikleri ile oluşturulmuştur.
+### << ## **PROJECT DETAILS** ## >>
 
-Responsive Yapı: Tasarım farklı ekran çözünürlüklerinde merkezi konumunu koruyacak şekilde yapılandırılmıştır.
+** **Dynamic Interaction:**
+** **When the password input field is focused, the panda figure covers its eyes with its hands, creating a "peek-a-boo" effect.**
 
-Kullanılan Teknolojiler
-HTML5: Form yapısı ve semantik elementler için kullanıldı.
+** **Eye Tracking:**
+** **When the username field is clicked, the pupils move toward the form area to provide visual feedback.**
 
-CSS3: Animasyonlar, geçişler (transitions) ve karakter tasarımı için kullanıldı.
 
-JavaScript: Focus ve blur olaylarını dinleyerek sınıfların (class) tetiklenmesi ve karakter hareketlerinin yönetimi için kullanıldı.
 
-Kurulum
-Dosyaları yerel bilgisayarınızda görüntülemek için şu adımları izleyebilirsiniz:
+** **Vectorless Drawing:**
+** **The panda character was created without any images (PNG, SVG, etc.), using entirely pure CSS code and border-radius properties.**
 
-Projeyi bilgisayarınıza indirin.
+** **Responsive Structure:**
+** **The design is structured to maintain its central position across different screen resolutions.**
 
-Klasör içerisindeki index.html dosyasına sağ tıklayıp bir tarayıcı ile açın.
+---
+
+### << ## **TECHNOLOGIES USED** ## >>
+
+** **HTML5:**
+** **Used for the form structure and semantic elements.**
+
+** **CSS3:**
+** **Used for animations, transitions, and character design.**
+
+
+
+** **JavaScript:**
+** **Used for listening to focus and blur events, triggering classes, and managing character movements.**
+
+---
+
+### << ## **INSTALLATION** ## >>
+
+** **Follow these steps to view the files on your local computer:**
+
+** **1. Download the project to your computer.**
+** **2. Right-click the index.html file inside the folder and open it with a browser.**
+
+---
+
+### << ## **CONTACT** ## >>
+** **Yunus Kunduz**
+** **Necmettin Erbakan University - Electrical & Electronics Engineering (Junior)**
+** **YouTube Channel:** [CozumLab](https://www.youtube.com/@CozumLabTR)
